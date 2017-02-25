@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.storm.storm.ActivityDishOrder">
+
+    <TextView
+        android:id="@+id/dish_name_list_item"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="SweetAndSourFilletOfPork"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dish_amount_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="1"
+        android:textSize="18sp" />
+
+</LinearLayout>

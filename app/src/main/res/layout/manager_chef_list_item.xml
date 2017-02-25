@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textChef_phone"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:text="13143120004"
+        android:textColor="#111"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textChef_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chef name"
+        android:textColor="#111"
+        android:textSize="24sp" />
+</LinearLayout>

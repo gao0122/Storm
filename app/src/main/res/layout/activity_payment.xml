@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#47b8e0"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.storm.storm.ActivityPay">
+
+    <ImageView
+        android:id="@+id/imageView_logo_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/storm_logo_white_" />
+
+    <TextView
+        android:id="@+id/textView_title_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="PAYMENT"
+        android:textColor="#ffffff"
+        android:textSize="64dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Alipay"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#47b8ee" />
+
+                <ImageView
+                    android:id="@+id/imageView_alipay"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#818181"
+                    android:src="@drawable/storm_alipay" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_wepay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="WeChat Pay"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#47b8ee" />
+
+                <ImageView
+                    android:id="@+id/imageView_wepay"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#818181"
+                    android:src="@drawable/storm_wepay" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_pay_amount_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="￥666 "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#47b8ee"
+                    android:textSize="64sp" />
+
+                <Button
+                    android:id="@+id/btnCard"
+                    android:layout_width="200dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#ff7473"
+                    android:fontFamily="times new roman"
+                    android:text="Credit Card"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnCash"
+                    android:layout_width="200dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#ff7473"
+                    android:fontFamily="times new roman"
+                    android:text="Cash"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_back_payment"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="#ff7473"
+        android:fontFamily="times new roman"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

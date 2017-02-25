@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.storm.storm.ActivityDishOrder">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="1000dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff7473"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="false" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            .<android.support.v4.view.ViewPager
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="576dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <LinearLayout
+                android:layout_width="1000dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.66"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <SearchView
+                    android:id="@+id/search_orderdish"
+                    android:layout_width="666dp"
+                    android:layout_height="81dp"
+                    android:background="#ffffff"
+                    android:gravity="bottom">
+
+                </SearchView>
+
+                <Button
+                    android:id="@+id/button_search"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="102dp"
+                    android:layout_height="81dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#ff7473"
+                    android:singleLine="false"
+                    android:text="Search"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/button_service"
+                    android:layout_width="112dp"
+                    android:layout_height="81dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#ff7473"
+                    android:singleLine="false"
+                    android:text="Serviceb"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp" />
+
+                <Button
+                    android:id="@+id/button_comment_orderdish"
+                    android:layout_width="115dp"
+                    android:layout_height="81dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#ff7473"
+                    android:singleLine="false"
+                    android:text="Comment"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="#47b8e0"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/logo_orderdish"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/storm_logo_white_" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="4px" />
+
+            <TextView
+                android:id="@+id/textView_orderedDish"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="2dp"
+                android:background="#47b8e0"
+                android:gravity="center"
+                android:text="Ordered Dish"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/list_dishorder"
+                android:layout_width="match_parent"
+                android:layout_height="372dp"
+                android:layout_gravity="center_horizontal|left"
+                android:layout_marginBottom="2dp"
+                android:background="#47b8e0"
+                android:choiceMode="none"
+                android:clickable="true"
+                android:longClickable="true"
+                android:stackFromBottom="false" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="4px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_clearAll"
+                    android:layout_width="158dp"
+                    android:layout_height="58dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#ff7473"
+                    android:singleLine="false"
+                    android:text="Clear All"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button_list_orderdish"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ff7473"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:singleLine="false"
+                    android:text="More"
+                    android:textColor="#ffffff"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="4px" />
+
+            <Button
+                android:id="@+id/button_confirm_orderdish"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ff7473"
+                android:singleLine="false"
+                android:text="Confirm it"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="8px" />
+
+            <Button
+                android:id="@+id/button_pay_orderdish"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:background="#ff7473"
+                android:singleLine="false"
+                android:text="PAY"
+                android:textColor="#ffffff"
+                android:textSize="41sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_boss_favor_num"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="42"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#efefef"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView_boss_favor_name"
+        android:layout_width="484dp"
+        android:layout_height="wrap_content"
+        android:text="Dish name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#efefef"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView_boss_favor_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#efefef"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView_boss_favor_amount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#efefef"
+        android:textSize="32sp" />
+</LinearLayout>

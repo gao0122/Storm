@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.storm.storm.ActivityList">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="800dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#47b8e0"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/textView4"
+            android:textSize="100dp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="#47b8e0"
+            android:layout_marginTop="28dp"
+            android:text="STORM"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="460dp"
+            android:layout_height="wrap_content"
+            android:text="LIST"
+            android:id="@+id/textView_list"
+            android:layout_gravity="center_horizontal"
+            android:textSize="80dp"
+            android:textStyle="bold|italic"
+            android:layout_weight="0.94"
+            android:textColor="#ffffff"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="800dp"
+        android:layout_height="427dp"
+        android:id="@+id/listView_list"
+        android:layout_gravity="center_horizontal"
+        android:touchscreenBlocksFocus="false"
+        android:background="#ffffff"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="OK"
+        android:id="@+id/button_ok_list"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#ff7473"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/listView_list"
+        android:layout_alignEnd="@+id/listView_list"
+        android:layout_marginTop="3dp"
+        android:fontFamily="times new roman" />
+
+    <TextView
+        android:layout_width="598dp"
+        android:layout_height="100dp"
+        android:text="Total: "
+        android:id="@+id/textView_totalAmount"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_weight="0.97"
+        android:layout_alignTop="@+id/button_ok_list"
+        android:layout_alignStart="@+id/listView_list"
+        android:background="#47b8e0"
+        android:textStyle="bold"
+        android:fontFamily="times new roman" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/linearLayout2"
+        android:background="#47b8e0"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

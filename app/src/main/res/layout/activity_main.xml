@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.storm.storm.ActivityMain">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="290dp"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="700dp"
+            android:layout_height="75dp"
+            android:background="#47b8e0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="2dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="700dp"
+            android:layout_height="606dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#47b8e0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logo_main"
+                android:src="@drawable/storm_logo_white_"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="400dp"
+                android:layout_height="133dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="phone: "
+                    android:id="@+id/textView"
+                    android:textSize="40sp"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/edit_phone_main"
+                    android:layout_weight="0.80"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="order"
+                    android:id="@+id/buttonOrder"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="30sp"
+                    android:background="#ff7473"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#ffffff"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:layout_marginRight="2dp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="vip"
+                    android:id="@+id/buttonVIP"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="30sp"
+                    android:background="#ff7473"
+                    android:textColor="#ffffff"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="2dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="700dp"
+            android:layout_height="75dp"
+            android:background="#47b8e0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="290dp"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"></LinearLayout>
+
+</LinearLayout>

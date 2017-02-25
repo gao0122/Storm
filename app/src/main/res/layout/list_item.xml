@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.storm.storm.ActivityList">
+
+    <LinearLayout
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dish_name_list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dish name"
+            android:textColor="#3d3b3b"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dish_state_list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uncook"
+            android:textColor="#3d3b3b"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dish_type_list_item"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Staple Food"
+        android:textColor="#3d3b3b"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/dish_price_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥10"
+        android:textColor="#3d3b3b"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/dish_amount_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="2"
+        android:textColor="#3d3b3b"
+        android:textSize="24sp" />
+
+</LinearLayout>

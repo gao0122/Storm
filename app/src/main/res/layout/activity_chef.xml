@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.storm.storm.ActivityChef">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#47b8e0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/logo_chef"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/storm_logo_white_" />
+
+        <TextView
+            android:id="@+id/textView_chef"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Chef"
+            android:textColor="#ffffff"
+            android:textSize="66dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list_cooking"
+            android:layout_width="800dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:background="#ff7473"
+            android:choiceMode="none"
+            android:clickable="true"
+            android:longClickable="true" />
+
+        <ListView
+            android:id="@+id/list_uncook"
+            android:layout_width="800dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:choiceMode="none"
+            android:clickable="true"
+            android:longClickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

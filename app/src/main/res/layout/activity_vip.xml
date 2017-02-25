@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.storm.storm.ActivityVIP">
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="775dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.26"
+            android:background="#47b8e0"
+            android:gravity="center"
+            android:paddingTop="28dp"
+            android:text="STORM"
+            android:textColor="#ffffff"
+            android:textSize="100sp"
+            android:textStyle="bold|normal|italic" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginBottom="2dp"
+            android:background="#47b8e0"
+            android:gravity="center_horizontal"
+            android:text="VIP"
+            android:textColor="#ffffff"
+            android:textColorHint="#34314c"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#47b8e0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="191dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="Name: "
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_name_vip"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Please input your name."
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#47b8e0"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:background="#47b8e0"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="192dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="Phone: "
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_phone_vip"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Please input your phone."
+                android:inputType="none"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                                                    "
+                android:id="@+id/textView5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#47b8e0"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_phone_exist_vip"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:fontFamily="times new roman"
+                android:gravity="right"
+                android:text="The phone has been registered already."
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#47b8e0"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="191dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="VC:"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_vc"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:ems="6"
+                android:hint="Please input SMS code."
+                android:inputType="numberDecimal"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="40dp"
+                android:layout_weight="0.70" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#47b8e0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_vc_vip"
+                android:layout_width="625dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="times new roman"
+                android:gravity="right"
+                android:text="Invalid CV. Please try again."
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="#47b8e0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_confirm_vip"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:background="#ff7473"
+                android:singleLine="false"
+                android:text="Confirm"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_back_vip"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="2dp"
+                android:background="#ff7473"
+                android:singleLine="false"
+                android:text="Back"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="match_parent"
+        android:background="#47b8e0"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

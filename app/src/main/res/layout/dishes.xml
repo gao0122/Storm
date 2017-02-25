@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ActivityDishOrder$DishesFragment">
+
+    <LinearLayout
+        android:id="@+id/dishes"
+        android:layout_width="1002dp"
+        android:layout_height="586dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ScrollView
+            android:id="@+id/scrollViewDishes"
+            android:layout_width="1002dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="1006dp"
+                android:layout_height="590dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img00"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name00"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img01"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img02"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img03"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img04"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp"
+                                android:adjustViewBounds="false" />
+
+                            <TextView
+                                android:id="@+id/name04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img10"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img11"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img12"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img13"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img14"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img20"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img21"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img22"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img23"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="@color/cardview_light_background">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                android:id="@+id/img24"
+                                android:layout_width="200dp"
+                                android:layout_height="160dp" />
+
+                            <TextView
+                                android:id="@+id/name24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text=""
+                                android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

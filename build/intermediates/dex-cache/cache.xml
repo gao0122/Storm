@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_fc6da76493b2a394c381ccae106d59f1b4975ba8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.2_c463e2cc073b4a53b267cb2e8c019334e31dc435/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_58608fe149b8a6a8fa54d02f623e805118b3334b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_d44495a8234905bb659d2e27881543449bc1770e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_0cabe9dea9c4cbbd071b0cdba6dd0c0f84ac4263/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/libs/mpandroidchartlibrary-2-2-4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5455fb794bfcbeb75da252dffd907794614f7fd">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/2/mpandroidchartlibrary-2-2-4_a42c2c6f9cdc7a8369e2aa7ed03db3b61bf07b1a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.2_63b931acf01a899bf67c16b574cb61096a28a0cd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.0_478e452d9891dc3bbf3bba843da37b6ba34ff771/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="62b22361f3a04415ece29c913ce4f0e7d3eb1b28">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e0dd3080c26d8954f3a7784b8dcc24fafe723b3e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="28ce17c774ae202c88d9af40d76b0b86a56f5787">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_322d98e0a33612f38c1fc3f60ff50b2ffdb1bf03/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-23.3.0_884ba00a86d027b9c83d63fa313bf85a24267eea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/libs/commons-httpclient-3.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-httpclient-3.1_7433e23c01088b2a598d973ea5daba4338f88bfa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_55793bd7fdcf7f013609f7365aaedbfe4df01b71/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_47d0085a30f4d86e9a7f17891fb197912da43b5a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/libs/commons-net-2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="07993c12f63c78378f8c90de4bc2ee62daa7ca3a">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-net-2.2_8e74725018f0287e3a81365ad49c8fe9373f0613/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_618d65ef80d4d71bbf489e70b1fc05f77ba490ac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_7e75cb8f37a2670430f0763aa269f11bac31b3e0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_6024cbb93c8837b6f4f9f09e419cf8ccab5a6fa7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_127a73dade20188b2b49a73f17907109f1160d08/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_47f91192c1dd9f399e5631ef3e65ab5f067f65f5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_34bf99e0ac8b2bfc62f010ef2cd1b900f1bad9e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_7367ff006a66d1d2ecf4834f1468ff0e61c7e9c1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_792eadff8a20e9ccdb51851f0329587e1f71d6e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/libs/mysql-connector-java-5.0.8-bin.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7b9bfb6c4e4885660378a9c13330915c321f6cca">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/2/mysql-connector-java-5.0.8-bin_10603854d70a3937e4a132168307b1663a2f2aae/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_1e6ceb723a4024a8aedf464a9afd3c24e96a3c02/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/Richard/AndroidStudioProjects/Storm/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_acd7eace6e6ad0d307504e4130d4d4554efeb84a/classes.dex" />
+    </item>
+
+</items>
